@@ -1,10 +1,14 @@
-import './MainPageContainer.css';
+import { Box } from '@mui/material'
+import BannerContainer from './BannerContainer/BannerContainer'
+import BookDescriptionContainer from './BookDescriptionContainer/BookDescriptionContainer'
+
 
 function MainPageContainer() {
   return (
-    <div>
-      
-    </div>
+    <Box>
+     <BannerContainer />
+     <BookDescriptionContainer />
+    </Box>
   );
 }
 
