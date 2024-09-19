@@ -1,11 +1,11 @@
 import { Box } from '@mui/material'
-
+import ProductCard from './ProductCard';
 
 function BookDescriptionContainer() {
 
   return (
     <Box>
-      test
+      <ProductCard />
     </Box>
   );
 }
