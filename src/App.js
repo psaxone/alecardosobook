@@ -6,7 +6,8 @@ const theme = createTheme({
     fontFamily: [
       'Tinos'
     ].join(','),
-  },});
+  }
+});
 
 function App() {
   return (
