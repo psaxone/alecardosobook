@@ -10,11 +10,17 @@ function ProductCard() {
       flexDirection: 'column',
       width: '210px',
       margin: '4px 4px'
+    },
+    productCardContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      width: '40%'
     }
   }
 
   return (
-    <Box>
+    <Box sx={styles.productCardContainer}>
       <Box>
         <img 
           height='300'
