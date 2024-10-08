@@ -1,9 +1,10 @@
 import { Box, Button } from '@mui/material'
 import PortadaLibro from '../assets/portada.jpg'
-import React from 'react';
+import React from 'react'
+import ContactInfoConstant from '../constants/ContactInfo'
 
 function ProductCard() {
-
+console.log(ContactInfoConstant.phoneNumber)
   const styles = {
     buttonContainer: {
       display: 'flex',
@@ -29,12 +30,21 @@ function ProductCard() {
         />
       </Box>
       <Box sx={styles.buttonContainer}>
-        <Button variant='contained' size='large' color='success' sx={{mb: '8px'}}>
-          Comprar E-book
+        <Button 
+          variant='contained' 
+          size='large' 
+          color='success' 
+          sx={{mb: '8px'}} 
+          href={`https://wa.me/${
+                      ContactInfoConstant.phoneNumber
+                    }?text=${encodeURIComponent(ContactInfoConstant.whatsappContactText)}`}
+          target={'_blank'}
+        >
+          Comprar
         </Button>
-        <Button variant='contained' size='large'>
+        {/* <Button variant='contained' size='large'>
           Comprar Libro Impreso
-        </Button>
+        </Button> */}
       </Box>
     </Box>
   );

@@ -6,18 +6,21 @@ function BannerContainer() {
   const styles = {
     boxContainer: {
       display: 'flex',
-      justifyContent: 'center'
+      justifyContent: 'space-between'
     },
     textBackground: {
       display: 'flex',
       backgroundColor: 'black',
-      width: '100%'
+      width: '60%'
     },
     textContainer: {
       color: 'white',
       alignItems: 'center',
       display: 'flex',
       marginLeft: '32px'
+    },
+    imageContainer: {
+      width: '40%'
     }
   }
   return (
@@ -32,7 +35,7 @@ function BannerContainer() {
           </Typography>
         </Box>
       </Box>
-      <Box>
+      <Box sx={styles.imageContainer}>
         <img src={Author} alt='autor'/>
       </Box>
       
