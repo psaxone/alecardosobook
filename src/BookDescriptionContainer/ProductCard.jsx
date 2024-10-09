@@ -4,12 +4,12 @@ import React from 'react'
 import ContactInfoConstant from '../constants/ContactInfo'
 
 function ProductCard() {
-console.log(ContactInfoConstant.phoneNumber)
+
   const styles = {
     buttonContainer: {
       display: 'flex',
       flexDirection: 'column',
-      width: '210px',
+      width: '216px',
       margin: '4px 4px'
     },
     productCardContainer: {
@@ -42,9 +42,6 @@ console.log(ContactInfoConstant.phoneNumber)
         >
           Comprar
         </Button>
-        {/* <Button variant='contained' size='large'>
-          Comprar Libro Impreso
-        </Button> */}
       </Box>
     </Box>
   );

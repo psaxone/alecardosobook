@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import BannerContainer from './BannerContainer/BannerContainer'
 import BookDescriptionContainer from './BookDescriptionContainer/BookDescriptionContainer'
+import Footer from './Footer/Footer'
 
 
 function MainPageContainer() {
@@ -8,6 +9,7 @@ function MainPageContainer() {
     <Box>
      <BannerContainer />
      <BookDescriptionContainer />
+     <Footer />
     </Box>
   );
 }

@@ -20,7 +20,7 @@ function BannerContainer() {
       marginLeft: '32px'
     },
     imageContainer: {
-      width: '40%'
+      // width: '40%'
     }
   }
   return (
