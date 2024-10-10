@@ -16,25 +16,25 @@ const styles = {
 
   return (
     <Box sx={styles.footerContainer}>
-      <BottomNavigation sx={{ backgroundColor: '#e8e8e9', width: 500, justifyContent: 'space-around', alignItems: 'center' }} >
+      <BottomNavigation sx={{ backgroundColor: 'background', width: 500, justifyContent: 'space-around', alignItems: 'center' }} >
         <Link
           href={`https://www.instagram.com/${ContactInfoConstant.instagram}`}
           target={'_blank'}
-          color="#5f6263"
+          color="primary"
         >
           {<InstagramIcon />}
         </Link>
         <Link
           href={`https://www.twitter.com/${ContactInfoConstant.twitter}`}
           target={'_blank'}
-          color="#5f6263"
+          color="primary"
         >
           {<XIcon />}
         </Link>
         <Link
           href={`https://www.facebook.com/${ContactInfoConstant.facebook}`}
           target={'_blank'}
-          color="#5f6263"
+          color="primary"
         >
           {<FacebookIcon />}
         </Link>
