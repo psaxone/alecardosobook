@@ -1,0 +1,4 @@
+const BiographyConstant = {
+  biography: 'Alejandro Cardoso nació el 22 de noviembre de 1966 en la ciudad y partido de Morón, provincia de Buenos Aires, Republica Argentina. Se crio en la localidad de Ituzaingó, en ese momento del mismo partido y provincia. Actualmente vive con su esposa, Hebe María Bárcena, en la ciudad de Ramos Mejía. Estudió en la Facultad de Derecho y Ciencias Sociales de la Universidad de Buenos Aires, recibléndose de abogado en 1997, Tocó el saxofón tenor durante aproximadamente diez años en la Big Band conocida primeramente como Sotavento Jazz Band, y que luego se denominó Sotavento Big Band. Participó de la grabación y presentación de sus dos primeros CDs., realizadas en los teatros ND Ateneo y La Trastienda, de la Ciudad Autónoma de Buenos Aires. También realizó algunas presentaciones con la Kaiser Big Band. Hoy es funcionario del Poder Judicial de la provincia de Buenos Aires.'
+}
+export default BiographyConstant

@@ -1,8 +1,9 @@
-import { Box } from '@mui/material'
+import { Box, Divider } from '@mui/material'
 import BannerContainer from './BannerContainer/BannerContainer'
 import BookDescriptionContainer from './BookDescriptionContainer/BookDescriptionContainer'
 import Footer from './Footer/Footer'
 import MenuAppBar from './AppBar/AppBar';
+import BiographyContainer from './BiographyContainer/BiographyContainer';
 
 
 function MainPageContainer() {
@@ -11,6 +12,8 @@ function MainPageContainer() {
       <MenuAppBar />
       <BannerContainer />
       <BookDescriptionContainer />
+      <Divider variant='middle' />
+      <BiographyContainer />
       <Footer />
     </Box>
   );
