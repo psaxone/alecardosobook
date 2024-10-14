@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alecardosobook/static/css/main.e6c13ad2.css",
+    "main.js": "/alecardosobook/static/js/main.645bb186.js",
+    "static/js/453.7b3dc0d2.chunk.js": "/alecardosobook/static/js/453.7b3dc0d2.chunk.js",
+    "static/media/autorb&w.png": "/alecardosobook/static/media/autorb&w.7325d5b544bd1f5674de.png",
+    "static/media/BannerB&W.png": "/alecardosobook/static/media/BannerB&W.1382f3c80c7476b3888b.png",
+    "static/media/portada.jpg": "/alecardosobook/static/media/portada.36d07634bc9b0e1752b0.jpg",
+    "index.html": "/alecardosobook/index.html",
+    "main.e6c13ad2.css.map": "/alecardosobook/static/css/main.e6c13ad2.css.map",
+    "main.645bb186.js.map": "/alecardosobook/static/js/main.645bb186.js.map",
+    "453.7b3dc0d2.chunk.js.map": "/alecardosobook/static/js/453.7b3dc0d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.645bb186.js"
+  ]
+}
