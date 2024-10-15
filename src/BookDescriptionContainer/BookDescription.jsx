@@ -11,8 +11,11 @@ function BookDescription() {
 
   return (
     <Box sx={styles.textContainer}>
+      <Typography variant='h6' gutterBottom>
+        {BookDescriptionText.bookDescription1}
+      </Typography>
       <Typography variant='h6'>
-        {BookDescriptionText.bookDescription}
+        {BookDescriptionText.bookDescription2}
       </Typography>
     </Box>
   );
